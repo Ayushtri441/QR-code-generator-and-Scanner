@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    style="@style/AppTheme.MaterialTheme"
+    tools:context=".GenerateQrCode">
+    <FrameLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FrameGen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:id="@+id/gentxt"
+            android:text="Yor OR code will be diaplayed here"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:padding="4dp"
+            android:textSize="15sp"
+            ></TextView>
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@color/white"
+            android:id="@+id/frameimg"
+            >
+        </ImageView>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/TILID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FrameGen"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/white"
+        android:autofillHints=""
+        android:textColorHint="@color/white"
+        android:hint="Enter Text to Generate QR"
+        android:inputType="text" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TILID"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button_back"
+        android:id="@+id/btngen"
+        android:text="Generate QR code"
+        android:textAllCaps="false"
+        ></Button>
+</RelativeLayout>
