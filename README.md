@@ -9,7 +9,11 @@ Android application for generator of QR code using text as input from user and s
 [Demo Link](https://drive.google.com/file/d/1Vkorbgkok71OgAsheVRJ0qE6uPPXTbkG/view?usp=share_link)
 
 
+## Download Link
 
+[Download Link](## Demo Link
+
+[Demo Link](https://drive.google.com/file/d/1Vkorbgkok71OgAsheVRJ0qE6uPPXTbkG/view?usp=share_link))
 
 
 
