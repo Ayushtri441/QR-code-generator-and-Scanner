@@ -31,6 +31,8 @@ Dependency for Scanner for our app
 Use the code However you wish
 
 ## Screen shots
-![Demo Link](https://github.com/Ayushtri441/QR-code-generator-and-Scanner/blob/master/app/src/main/res/drawable-v24/Screenshot_20230131_22053215.png?raw=true)
 
-![s](https://github.com/Ayushtri441/QR-code-generator-and-Scanner/blob/master/app/src/main/res/drawable-v24/Screenshot_210230131_220701.png?raw=true)
+![Screenshot_20230131_220701](https://github.com/Ayushtri441/ayush/assets/113000672/3b3bf89d-06ae-4e7f-9c5b-5139fa583589)
+
+![ss](https://github.com/Ayushtri441/ayush/assets/113000672/cb8c1ae3-4526-489a-9c6f-df4510beca8f)
+![Screenshot_20230131_220535](https://github.com/Ayushtri441/ayush/assets/113000672/597aeef7-271d-4c44-a284-cef838b84da0)
