@@ -1,8 +1,7 @@
 
 # 📎QR code generator and Scanner
 
-Android application for generator of QR code using text as input from user and scanning of Image using camera. This project helped me by working with different dependencies and API.
-
+This Android application allows users to generate a QR code from the text they input and scan QR codes using the device's camera. The project provides hands-on experience in working with different dependencies and APIs.
 
 ## Demo Link
 
@@ -14,7 +13,11 @@ Android application for generator of QR code using text as input from user and s
 [Demo Link](https://drive.google.com/file/d/1h0rtKlcfnqeqBwuoJSKEbrlDmdm73T1P/view?usp=drive_link)
 
 
+## Features:
 
+**QR Code Generation:** Users can enter text in the application, and it will generate a corresponding QR code representing the input text.
+
+**QR Code Scanning:** The application utilizes the device's camera to scan QR codes. When a QR code is detected, the app will extract the encoded text from the code
 
 
 ## Dependencies Used 
@@ -28,11 +31,17 @@ Dependency for Scanner for our app
     ('eu.livotov.labs.android:CAMView:2.0.1@aar') {transitive=true}
  implement these Dependencies in build.gradle(mod)
  
-Use the code However you wish
+ **ZXing Library:** This library provides support for generating and scanning QR codes.
+
+**Android Camera API:** The built-in camera API in Android will be used to capture and process images.
+
+**Android Layout Components:** We will design a user interface using XML layouts, including TextViews, EditTexts, and Buttons.
+
+**Java:** The project will be written in Java, a efficient programming language for Android development.
+
 
 ## Screen shots
 
-![Screenshot_20230131_220701](https://github.com/Ayushtri441/ayush/assets/113000672/3b3bf89d-06ae-4e7f-9c5b-5139fa583589)
-
-![ss](https://github.com/Ayushtri441/ayush/assets/113000672/cb8c1ae3-4526-489a-9c6f-df4510beca8f)
-![Screenshot_20230131_220535](https://github.com/Ayushtri441/ayush/assets/113000672/597aeef7-271d-4c44-a284-cef838b84da0)
+![Home](https://github.com/Ayushtri441/QR-code-generator-and-Scanner/assets/113000672/c18eee26-4f62-4214-afba-db139e0ba725)
+![scan1](https://github.com/Ayushtri441/QR-code-generator-and-Scanner/assets/113000672/174d494d-fe01-4daf-9381-233ec9d8af88)
+![ss](https://github.com/Ayushtri441/QR-code-generator-and-Scanner/assets/113000672/449e6a6e-13aa-4e36-9c57-629a7d285a35)
